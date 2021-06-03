@@ -87,7 +87,7 @@
                             </nav>
                         </div>
                         <!--contenu navigateur-->
-                        <section class="p-2 h-75 border-end border-start border-bottom border-dark rounded-bottom bg-secondary" id="ContenuNavigateur">
+                        <section style="height: 500px;" class="p-2 overflow-auto border-end border-start border-bottom border-dark rounded-bottom bg-secondary" id="ContenuNavigateur">
                             <section class="container h-100">
                                 <div class="row h-50 my-3 "> <!--ligne prog et langagues-->
                                     <div class="col me-2 bg-light rounded"> <!--prog et outils-->                               
@@ -105,22 +105,23 @@
                                                         <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
-                                                <div class=" col-3"><!--Bootstrap-->
-                                                    <img width="80px" height="80px" src="asset/img/bootstrap.png" alt="">
-                                                    <div class="progress ">
-                                                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
                                                 <div class=" col-3"><!--JS-->
                                                     <img width="80px" height="80px" src="asset/img/js.png" alt="">
                                                     <div class="progress ">
                                                         <div class="progress-bar" role="progressbar" style="width: 1%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
+                                                <div class=" col-3"><!--Bootstrap-->
+                                                    <img width="80px" height="80px" src="asset/img/bootstrap.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>                            
                                     </div>
-                                    <div class="col-3 h-100 bg-light rounded align-self-center">
+                                    <div class="col-3 bg-light rounded align-items-center"> <!--section langue-->
                                         <div class="container-fluid">
                                             <div class="col"><!--anglais-->
                                                 <img width="70px"  src="asset/img/anglais.png" alt="">
@@ -138,30 +139,94 @@
                                     </div>
                                 </div>
 
-                                <div class="row h-25 my-3 ">
-                                    <div class="col ms-3 h-100 bg-light rounded align-self-center">                                
-                                        <div class="p-2 h-75">
-                                            <h2>Soft Skills</h2>
-                                            <ul>
-                                                <li>Capacité d'apprentissage</li>
-                                                <li>Adaptabilité</li>
-                                                <li>Collaboration</li>
-                                                <li>Gestion du temps</li>
-                                                <li>Motivation</li>
-                                                <li>Créativité</li>
-                                            </ul>
+                                <div class="row h-25 my-3 "><!--debut deuxième ligne-->
+                                    <div class="col-4 bg-light rounded me-1">                                
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/book.png" alt="">
+                                                    <h3 class="fs-6">Collaboration</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/support.png" alt="">
+                                                    <h3 class="fs-6">Collaboration</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/teamwork.png" alt="">
+                                                    <h3 class="fs-6">travail d'équipe</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/adaptation.png" alt="">
+                                                    <h3 class="fs-6">adaptation</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/passer-du-temps.png" alt="">
+                                                    <h3 class="fs-6">Gestion du temps</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/motivation.png" alt="">
+                                                    <h3 class="fs-6">Motivation</h3>
+                                                </div>
+                                                <div class="col">                                            
+                                                    <img width="40px" src="asset/img/la-creativite.png" alt="">
+                                                    <h3 class="fs-6">Créativité</h3>
+                                                </div>
+                                            </div>
                                         </div>                            
                                     </div>                               
-                                    <div class="col ms-3 h-100 bg-light rounded align-self-center">
-                                        <h2>Logiciel et environnements</h2>
-                                        <ul>
-                                            <li>Windows/Linux/MacOs</li>
-                                            <li>Editeurs de texte(Visual Studio Code)</li>
-                                            <li>Microsoft office</li>
-                                            <li>Solidworks</li>
-                                            <li>Vegas Pro</li>
-                                            <li>GameMaker  Studio 2</li>
-                                        </ul>
+                                    <div class="col bg-light rounded ">
+                                        <div class="container-fluid">
+                                            <div class="row gy-1 my-1">
+                                                <div class="col-4"><!--windows-->
+                                                    <img width="50px"  src="asset/img/windows.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--macOS-->
+                                                    <img width="50px"  src="asset/img/masOs.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--Linux-->
+                                                    <img width="50px"  src="asset/img/linux.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--vscode-->
+                                                    <img width="50px"  src="asset/img/vscoe.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--office-->
+                                                    <img width="50px"  src="asset/img/office.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--solidworks-->
+                                                    <img width="50px"  src="asset/img/solidworks.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--vegas pro-->
+                                                    <img width="50px"  src="asset/img/Vegas_Pro_15.0.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4"><!--gmStudio-->
+                                                    <img width="50px"  src="asset/img/gmstudio2-removebg-preview.png" alt="">
+                                                    <div class="progress ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
