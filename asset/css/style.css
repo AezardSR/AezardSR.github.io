@@ -1,0 +1,8 @@
+.test{
+    height: 80% ;
+}
+@media screen and (max-width: 1024px){
+    .test{
+        height: 625px;
+    }
+}
