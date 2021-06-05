@@ -1,4 +1,6 @@
-
+#idcard{
+    width: 50%;
+}
 .tetris{
     height: 300px;
     width: 300px;
@@ -40,5 +42,8 @@
 @media screen and (max-width: 1024px){
     .test{
         height: 625px;
+    }
+    #idcard{
+        width: 90%;
     }
 }
