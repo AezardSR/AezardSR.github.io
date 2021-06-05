@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        
+
     <title>Cv Romain Zieba</title>
 </head>
 
@@ -15,31 +15,26 @@
     <div class="container-fluid">
         <div class="row vh-100 align-items-center align-items-center row-cols-1">
             <!--zone id-->
-            <div class="col-12 col-lg-4">
-                <div>
-                    <img width="300px" src="asset/img/avatar.png" alt="">
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="w-75 bg-dark rounded text-light">
+                    <div class="text-center">
+                        <h1 class="">Romain Zieba</h1>
+                        <h2 class="fs-3">Développeur web</h2>
+                        <img width="260px" src="asset/img/avatar.png" alt="">
+                    </div>
+                    <div class="mt-3">
+                        <ul style="list-style-type: none;" class="w-50 text-start">
+                            <li>21 ans</li>
+                            <li>Pont-l'évêque, Oise, Hauts de france</li>
+                            <li><a href="mailto:romain.zieba@hotmail.fr?subject=plus d'informations" title="">romain.zieba@hotmail.fr</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-center">
+                        <a target="_blank" href="https://www.linkedin.com/in/romain-zieba/"><img width="50px"
+                                src="asset/img/linkedin.svg" class="my-3 alt=" icon linkedin"></a>
+                    </div>
                 </div>
 
-                                <h2 class="card-title">Romain Zieba</h2>
-                                <ul class="list-group">
-                                    <li class="list-group-item container-fluid">
-                                        <div class="row">
-                                            <div class="col-2 py-2">
-                                                <img width="30px" src="asset/img/home.png" alt="icon adresse">
-                                            </div>
-                                            <div class="col-10">
-                                                <p class="mb-0">16, square Claude Monet, 60400 Pont-l'évêque</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item"><img width="20px" class="me-2" src="asset/img/phone.png"
-                                            alt="icon numéro téléphone">06 03 03 50 14</li>
-                                    <li class="list-group-item"><img width="20px" class="me-2" src="asset/img/email.png"
-                                            alt="icon adresse email">romain.zieba@hotmail.fr</li>
-                                    <li class="list-group-item"><img width="20px" src="asset/img/linkedin.png"
-                                            class="me-2" alt="icon linkedin">www.linkedin.com/in/romain-zieba</li>
-                                    <li class="list-group-item">Permis B - Véhiculé</li>
-                                </ul>
             </div>
 
             <!--Zone navigateur-->
@@ -54,9 +49,9 @@
                         <!--barre avec les points de couleurs-->
                         <div class="bg-light rounded-top">
                             <div class="px-2 py-1">
-                                <img width="15px" src="asset/img/redDot.png" alt="">
-                                <img width="15px" src="asset/img/yelDot.png" alt="">
-                                <img width="15px" src="asset/img/greDot.png" alt="">
+                                <img width="15px" src="asset/img/redDot.png" alt="point rouge">
+                                <img width="15px" src="asset/img/yelDot.png" alt="point jaune">
+                                <img width="15px" src="asset/img/greDot.png" alt="point vert">
                             </div>
                         </div>
                         <!--barre de navigation-->
@@ -83,8 +78,9 @@
                                                     href="#competences">Compétences</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" data-bs-toggle="tab" href="#porte-folio">Portefolio</a>
-                                            </li>                                            
+                                                <a class="nav-link" data-bs-toggle="tab"
+                                                    href="#porte-folio">Portefolio</a>
+                                            </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" data-bs-toggle="tab" href="#loisir">Loisirs</a>
                                             </li>
@@ -93,23 +89,85 @@
                                 </div>
                             </nav>
                         </div>
-                        <section class="test p-2 overflow-auto border-end border-start border-bottom border-dark rounded-bottom bg-secondary" id="ContenuNavigateur">
+                        <section
+                            class="test p-2 overflow-auto border-end border-start border-bottom border-dark rounded-bottom bg-secondary"
+                            id="ContenuNavigateur">
                             <div id="myTabContent" class="tab-content">
                                 <!--accueil-->
-                                <div class="tab-pane fade " id="accueil">
-                                    <section class="container h-100">
-                                        <div class="row h-50 my-3 ">
-                                            <div class="col h-100 bg-light rounded align-self-center">
-                                                <div class="p-2 h-75">
-                                                    <p>je vous invite à télécharger une version PDF de mon CV que vous pouvez retrouver ci dessous dans une version imprimable.</p>
+                                <div class="tab-pane fade active show" id="accueil">
+                                    <section class="container-fluid">
+                                        <div class="row">
+                                            <div class="col bg-light rounded">
+                                                <p>Bonjour, je suis Romain Zieba, passionné d'informatique et des nouvelles technologies. Je m’intéresse énormément au différentes cultures du monde qui nous entoure avec une préférence pour la culture japonaise.</p>
+                                                <p>Je suis une personne curieuse et polyvalente, capable de travailler en équipe et volontaire !</p>
+                                            </div>
+                                            <div class="col my-3 bg-light rounded align-self-center">
+                                                <div class="p-3 h-75 text-center">
+                                                    <p>Je vous invite à télécharger une version PDF de mon CV:</p>
+                                                    <a href="asset/docs/CV.pdf" class="btn btn-dark">Télécharger mon cv</a>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row h-25 my-3 ">
-                                            <div class="col h-100 bg-light rounded align-self-center">
-                                                <div class="p-2">
-                                                    N'hésité pas à me contatcter, je reste joignable à toute heures de la journée
-                                                </div>
+                                            <div class="bg-light rounded">
+                                                    <h2 class="h1-responsive font-weight-bold text-center my-4">Me Contacter</h2>
+                                                    <div class="row">
+                                                        <!--Grid column-->
+                                                        <div class="col mx-4 mb-md-0 mb-5">
+                                                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                                                <!--Grid row-->
+                                                                <div class="row">
+                                                                    <!--Grid column-->
+                                                                    <div class="col-md-6">
+                                                                        <div class="md-form mb-0">
+                                                                            <input type="text" id="name" name="name" class="form-control">
+                                                                            <label for="name" class="">Nom</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--Grid column-->
+    
+                                                                    <!--Grid column-->
+                                                                    <div class="col-md-6">
+                                                                        <div class="md-form mb-0">
+                                                                            <input type="text" id="email" name="email" class="form-control">
+                                                                            <label for="email" class="">Adresse Mail</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--Grid column-->
+    
+                                                                </div>
+                                                                <!--Grid row-->
+    
+                                                                <!--Grid row-->
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <div class="md-form mb-0">
+                                                                            <input type="text" id="subject" name="subject" class="form-control">
+                                                                            <label for="subject" class="">Objet</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--Grid row-->
+    
+                                                                <!--Grid row-->
+                                                                <div class="row">
+    
+                                                                    <!--Grid column-->
+                                                                    <div class="col-md-12">
+    
+                                                                        <div class="md-form">
+                                                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                                            <label for="message">Votre Message</label>
+                                                                        </div>
+    
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+    
+                                                            <div class="text-center text-md-left">
+                                                                <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+                                                            </div>
+                                                            <div class="status"></div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </div>
                                     </section>
@@ -118,12 +176,11 @@
 
                                 <!--Formation-->
                                 <div class="tab-pane fade " id="formation">
-
                                     <section class="container h-100">
                                         <div class="row gy-2 ">
                                             <div class="col-12 h-75 bg-light rounded align-self-center">
                                                 <div class="p-2  h-75 d-flex justify-content-between">
-                                                    <div>                                                    
+                                                    <div>
                                                         <h2 class="fs-3">POEC Front-End - La Manu, L'école des métiers du numérique</h2>
                                                         <h3 class="fs-5">mai 2021 - juillet 2021</h3>
                                                         <h4 class="fs-6">parcours qualifiant</h4>
@@ -137,7 +194,7 @@
                                                             <li>- Savoir réaliser une boutique en ligne</li>
                                                             <li>- Connaître et savoir mettre en oeuvre les méthodes agiles (Scrum)</li>
                                                             <li>- Comprendre, connaître les bases de la gestion de projet web</li>
-                                                            <li>- Savoir utiliser l’anglais dans son activité professionnelle en informatique</li>
+                                                            <li>- Savoir utiliser l’anglais dans son activité  professionnelle en informatique</li>
                                                         </ul>
                                                     </div>
                                                     <a class="d-none d-md-block" href="https://lamanu.fr/"><img width="150px" src="asset/img/La manu.png" alt="logo la Manu"></a>
@@ -146,25 +203,28 @@
                                             <div class="col-12 h-75 bg-light rounded align-self-center">
                                                 <div class="p-2  h-75 d-flex justify-content-between">
                                                     <div>
-                                                        <h2 class="fs-3">1ère Année BTS Euro-plastique et Composites</h2>
+                                                        <h2 class="fs-3">1ère Année BTS Euro-plastique et Composites
+                                                        </h2>
                                                         <h3 class="fs-5">septembre 2018 - avril 2019</h3>
                                                         <ul style="list-style-type: none;">
                                                             <li>- Etude des matières plastiques</li>
-                                                            <li>- Mise en oeuvre des différentes matières plastiques</li>
+                                                            <li>- Mise en oeuvre des différentes matières plastiques
+                                                            </li>
                                                             <li>- Gestion d'équipe de production</li>
                                                             <li>- Conduite de producition</li>
                                                         </ul>
                                                     </div>
-                                                    <a class="bg-dark rounded h-25 d-none d-md-block" href="http://www.lycees-publics-chauny.fr/bts-europlastics-composites"><img src="asset/img/logo lycée chauny.png" alt="lycée jean Macé"></a>
+                                                    <a class="bg-dark rounded h-25 d-none d-md-block"  href="http://www.lycees-publics-chauny.fr/bts-europlastics-composites"><img src="asset/img/logo lycée chauny.png"  alt="lycée jean Macé"></a>
                                                 </div>
                                             </div>
                                             <div class="col-12 h-75 bg-light rounded align-self-center">
                                                 <div class="p-2 h-75 d-flex justify-content-between">
                                                     <div>
-                                                        <h2 class="fs-3">Niveau Bac S Option Sciences de l'ingénieur</h2>
+                                                        <h2 class="fs-3">Niveau Bac S Option Sciences de l'ingénieur
+                                                        </h2>
                                                         <h3 class="fs-5">juillet 2018</h3>
                                                     </div>
-                                                    <a class="d-none d-md-block" href="http://calvin.lyc.ac-amiens.fr/sitewp/"><img src="asset/img/logoJeanCalvin.png" alt="logo lycée Jean Calvin"></a>
+                                                    <a class="d-none d-md-block"  href="http://calvin.lyc.ac-amiens.fr/sitewp/"><img src="asset/img/logoJeanCalvin.png" alt="logo lycée Jean Calvin"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +240,7 @@
                                                 <div class="p-2 h-75">
                                                     <div class="d-flex align-items-center">
                                                         <h2 class="fs-3 d-none d-md-block">Allard Emballages</h2>
-                                                        <a href="https://www.allardemballages.fr/" target="_blank"><img class="w-50" src="asset/img/AllardEmballage.png" alt="logo allard emballage"></a>
+                                                        <a href="https://www.allardemballages.fr/" target="_blank"><img  class="w-50" src="asset/img/AllardEmballage.png"  alt="logo allard emballage"></a>
                                                     </div>
                                                     <h3 class="fs-6">Manutenttionnaire en intérim, septembre 2020</h3>
                                                     <hr>
@@ -193,7 +253,7 @@
                                                 <div class="p-2 h-75">
                                                     <div class="d-flex align-items-center">
                                                         <h2 class="fs-3 d-none d-md-block">Intermarché</h2>
-                                                        <a href="https://www.intermarche.com/"><img class="ms-2" width="170px" src="asset/img/20120610112610!Logo_Intermarché.svg"alt="logo intermarché"></a>
+                                                        <a href="https://www.intermarche.com/"><img class="ms-2"   width="170px"  src="asset/img/20120610112610!Logo_Intermarché.svg" alt="logo intermarché"></a>
                                                     </div>
                                                     <h3 class="fs-6">Inventoriste en CDD, août 2020</h3>
                                                     <hr>
@@ -207,9 +267,10 @@
                                                     <div class="d-flex align-items-center">
                                                         <h2 class="fs-3 d-none d-md-block">Comptoire Général du Ressort
                                                         </h2>
-                                                        <a href="https://www.cgr-international.com/fr/"><img height="90px" src="asset/img/CG_logo_5-1.png" alt=""></a>
+                                                        <a href="https://www.cgr-international.com/fr/"><img  height="90px" src="asset/img/CG_logo_5-1.png"  alt="logo cgr"></a>
                                                     </div>
-                                                    <h3 class="fs-6">Manutentionnaire en intérim, Juin 2019 à février 2020</h3>
+                                                    <h3 class="fs-6">Manutentionnaire en intérim, Juin 2019 à février
+                                                        2020</h3>
                                                     <hr>
                                                     <p>Tri des pièces et préparation des colis pour l'envoi</p>
                                                 </div>
@@ -226,53 +287,46 @@
                                             <!--row generale-->
                                             <div class="col-12 col-md-9 me-1 bg-light rounded">
                                                 <!--prog et outils-->
-                                                <div class="container-fluid p-2">
-                                                    <div class="row ">
+                                                <div class="container-fluid p-2 ">
+                                                    <div class="row text-center ">
                                                         <div class="col-12 col-md-3">
                                                             <!--html5-->
-                                                            <img width="80px" class="mx-auto d-block" src="asset/img/html-5.png" alt="">
+                                                            <img width="80px" class="mx-auto d-block"  src="asset/img/html-5.png" alt="logo html">
                                                             <div class="progress">
                                                                 <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-md-3">
                                                             <!--CSS3-->
-                                                            <img width="80px" class="mx-auto d-block" src="asset/img/css.png" alt="">
+                                                            <img width="80px" class="mx-auto d-block" src="asset/img/css.png" alt="logo css">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12 col-md-3">
                                                             <!--JS-->
-                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/js.png" alt="">
-                                                            <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar"  style="width: 1%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
+                                                            <img width="80px" height="80px" class="mx-auto d-block"  src="asset/img/js.png" alt="logo js">
+                                                            <p>prochainement</p>
                                                         </div>
                                                         <div class="col-12 col-md-3">
                                                             <!--php-->
-                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/php.png" alt="">
-                                                            <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar" style="width: 1%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
+                                                            <img width="80px" height="80px" class="mx-auto d-block"  src="asset/img/php.png" alt="logo php">
+                                                            <p>prochainement</p>
                                                         </div>
                                                         <div class="col-3 d-none d-md-block"></div>
                                                         <!--div de centrage-->
                                                         <div class="col-12 col-md-3">
                                                             <!--mySQL-->
-                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/mysql.png" alt="">
-                                                            <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar"  style="width: 1%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
+                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/mysql.png" alt="logo mysql">
+                                                            <p>prochainement</p>
                                                         </div>
                                                         <div class="col-12 col-md-3">
                                                             <!--Bootstrap-->
-                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/bootstrap.png" alt="">
+                                                            <img width="80px" height="80px" class="mx-auto d-block" src="asset/img/bootstrap.png" alt="logo bootstrap">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -282,14 +336,14 @@
                                                     <div class="row gy-4">
                                                         <div class="col-12">
                                                             <!--anglais-->
-                                                            <img width="70px" class="mx-auto d-block" src="asset/img/anglais.png" alt="">
+                                                            <img width="70px" class="mx-auto d-block" src="asset/img/anglais.png" alt="drapeau anglais">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12">
                                                             <!--espagnole-->
-                                                            <img width="70px" class="mx-auto d-block" src="asset/img/espagne.png" alt="">
+                                                            <img width="70px" class="mx-auto d-block" src="asset/img/espagne.png" alt="drapeau espagnole">
                                                             <div class="progress">
                                                                 <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
@@ -302,31 +356,31 @@
                                                 <div class="container-fluid">
                                                     <div class="row text-center text-break">
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/book.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/book.png" alt="logo capacité d'apprendtissage">
                                                             <h3 class="fs-6">Capacité d'apprentissage</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/support.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/support.png" alt="logo collaboration">
                                                             <h3 class="fs-6">Collaboration</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/teamwork.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/teamwork.png" alt="logo travail d'équipe">
                                                             <h3 class="fs-6">travail d'équipe</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/adaptation.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/adaptation.png" alt="logo adaptation">
                                                             <h3 class="fs-6">adaptation</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/passer-du-temps.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/passer-du-temps.png" alt="logo gestion du temps">
                                                             <h3 class="fs-6">Gestion du temps</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/motivation.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/motivation.png" alt="logo motivation">
                                                             <h3 class="fs-6">Motivation</h3>
                                                         </div>
                                                         <div class="col-6">
-                                                            <img width="40px" class="mx-auto d-block" src="asset/img/la-creativite.png" alt="">
+                                                            <img width="40px" class="mx-auto d-block" src="asset/img/la-creativite.png" alt="logo créativité">
                                                             <h3 class="fs-6">Créativité</h3>
                                                         </div>
                                                     </div>
@@ -337,63 +391,63 @@
                                                     <div class="row gy-1 p-2">
                                                         <div class="col-6 col-md-4">
                                                             <!--windows-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/windows.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/windows.png" alt="logo windows">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar"  style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--macOS-->
-                                                            <img width="50px" class="mx-auto d-block"  src="asset/img/masOs.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/masOs.png" alt="logo macos">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--Linux-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/linux.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/linux.png" alt="logo linux">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--vscode-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/vscoe.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/vscoe.png" alt="logo vs code">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--office-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/office.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/office.png" alt="logo microsoft office">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--solidworks-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/solidworks.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/solidworks.png" alt="logo solidworks">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--vegas pro-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/Vegas_Pro_15.0.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/Vegas_Pro_15.0.png" alt="logo vegas pro">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--gmStudio-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/gmstudio2-removebg-preview.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/gmstudio2-removebg-preview.png" alt="logo gamemaker studio 2">
                                                             <div class="progress ">
-                                                                <div class="progress-bar" role="progressbar"  style="width: 30%;" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="100"></div>
+                                                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-md-4">
                                                             <!--GitHub-->
-                                                            <img width="50px" class="mx-auto d-block" src="asset/img/github.png" alt="">
+                                                            <img width="50px" class="mx-auto d-block" src="asset/img/github.png" alt="logo github">
                                                             <div class="progress ">
                                                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                             </div>
@@ -411,8 +465,8 @@
                                     <div class="container-fluid">
                                         <div class="row gy-3">
                                             <div class="col-12 col-md-6 me-1 p-2 text-center bg-light rounded">
-                                                <a target="_blank" href="asset/portefolio/AezardSR.github.io-azimut/index.html"><img class="imgPortfolio" src="asset/img/azimut.PNG" alt="projet-azimut"></a>
-                                                <h2 >Projet - Azimut</h2>
+                                                <a target="_blank" href="asset/portefolio/azimut/index.html"><img class="imgPortfolio" src="asset/img/azimut.PNG" alt="projet-azimut"></a>
+                                                <h2>Projet - Azimut</h2>
                                             </div>
                                             <div class="col-12 col-md p-2 text-center align-self-center bg-light rounded">
                                                 <a target="_blank" href="asset/portefolio/partie 4/index.html"><img class="imgPortfolio" src="asset/img/voyage&co.PNG" alt="Voyage and co"></a>
@@ -424,39 +478,36 @@
                                 <!--fin porte folio-->
 
                                 <!--début loisir-->
-                                <div class="tab-pane fade active show" id="loisir">
+                                <div class="tab-pane fade" id="loisir">
                                     <div class="container">
                                         <div class="row">
-                                        <div class="col-4 d-none d-xl-block text-center align-self-center"><img width="250px" src="asset/img/Tetris_T.svg" alt=""></div>
-                                        <div class="tetris tetrisa col-12 col-xl-4 p-3 bg-light text-center">
-                                            <img width="100px" src="asset/img/informatique.svg" alt="">
-                                            <h2>L'informatique</h2>
-                                            <p>J'aime beaucoup tout ce qui touche à l'informatique, aussi bien les logiciels que d'entretenir et changer les pièces de mes ordinateurs et ceux de mes proches</p>
+                                            <div class="col-4 d-none d-xl-block text-center align-self-center"><img width="250px" src="asset/img/Tetris_T.svg" alt=""></div>
+                                            <div class="tetris tetrisa col-12 col-xl-4 p-3 bg-light text-center">
+                                                <img width="100px" src="asset/img/informatique.svg"  alt="logo representant l'informatique">
+                                                <h2>L'informatique</h2>
+                                                <p>Montage, entretient et réparation d'ordinateur</p>
+                                            </div>
+                                            <div class="tetris tetrisb col-12 col-xl-4 p-3 bg-light text-center">
+                                                <img width="100px" src="asset/img/programmation.svg"  alt="logo representant la programmation">
+                                                <h2>Programmation</h2>
+                                                <p>Aussi bien dans le web, que dans le jeu vidéo</p>
+                                            </div>
+                                            <div class="tetris tetrisc col-12 col-xl-4 p-3 bg-light text-center">
+                                                <img width="100px" src="asset/img/jeuxvidéo.svg" alt="logo representant un gameboy">
+                                                <h2>Jeux Vidéo</h2>
+                                            </div>
+                                            <div class="tetris tetrisd col-12 col-xl-4 p-3 bg-light text-center">
+                                                <img width="100px" src="asset/img/musique.svg" alt="logo representant la musique">
+                                                <h2>La musique</h2>
+                                                <p>musique de tout genre, principalemnt Japonaise.</p>
+                                            </div>
+                                            <div class="col-4 d-none d-xl-block text-center align-self-center"><img width="250px" src="asset/img/Tetris_J.svg" alt=""></div>
                                         </div>
-                                        <div class="tetris tetrisb col-12 col-xl-4 p-3 bg-light text-center">
-                                            <img width="100px" src="asset/img/programmation.svg" alt="">
-                                            <h2>Programmation</h2>
-                                            <p>J'ai beaucoup de mal à m'en passer, j'ai toujours la tête dans le code d'une page web ou d'un mod pour un jeu vidéo !</p>
-                                        </div>
-                                        <div class="tetris tetrisc col-12 col-xl-4 p-3 bg-light text-center">
-                                            <img width="100px" src="asset/img/jeuxvidéo.svg" alt="">
-                                            <h2>Jeux Vidéo</h2>
-                                            <p>Grand fan de jeux vidéo en tout genre, mon préfèrer ? je dirais Nier Automta</p>
-                                        </div>
-                                        <div class="tetris tetrisd col-12 col-xl-4 p-3 bg-light text-center">
-                                            <img width="100px" src="asset/img/musique.svg" alt="">
-                                            <h2>La musique</h2>
-                                            <p>bien que je ne sois pas un grand joueur de musique, je pratique un peu de guitare et de piano, même si je préfere largement en écouter !</p>
-                                        </div>
-                                        <div class="col-4 d-none d-xl-block text-center align-self-center"><img width="250px" src="asset/img/Tetris_J.svg" alt=""></div>
-                                    </div>
                                     </div>
                                 </div>
                                 <!--fin loisir-->
-
                             </div>
                             <!--fin tab-content-->
-
                         </section>
                         <!--fin contenu navigateur-->
                     </section>
@@ -466,10 +517,6 @@
             <!--fin partie droite-->
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
-
 </html>
