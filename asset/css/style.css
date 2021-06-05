@@ -1,3 +1,39 @@
+
+.tetris{
+    height: 300px;
+    width: 300px;
+}
+.tetrisa{
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.tetrisb{
+    border-top: 4px solid black;
+    border-left: 2px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.tetrisc{
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 2px solid black;
+}
+
+.tetrisd{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.imgPortfolio{
+    width: 90%;
+}
+
 .test{
     height: 80% ;
 }
